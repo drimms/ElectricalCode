@@ -1,0 +1,89 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint",
+        "eslint-plugin-import"
+    ],
+    "globals": {
+        "JSX": true,
+        "LocalForage": true
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": [
+            "warn",
+            {
+                "allow": [
+                    "warn",
+                    "error"
+                ]
+            }
+        ],
+        "no-unused-vars": "off",
+        "no-useless-escape": "off",
+        "no-prototype-builtins": "off",
+        "no-multiple-empty-lines": [
+            "warn",
+            {
+                "max": 2
+            }
+        ],
+        "no-dupe-else-if": "warn",
+        "no-warning-comments": "warn",
+        "@typescript-eslint/no-unused-vars": "warn",
+        "@typescript-eslint/comma-spacing": "warn",
+        "@typescript-eslint/method-signature-style": "warn",
+        "@typescript-eslint/comma-dangle": "warn",
+        "@typescript-eslint/func-call-spacing": "warn",
+        "@typescript-eslint/lines-between-class-members": "warn",
+        "@typescript-eslint/space-before-blocks": "warn",
+        "@typescript-eslint/brace-style": "warn",
+        "no-irregular-whitespace": "warn",
+        "space-in-parens": "warn",
+        "no-trailing-spaces": "warn",
+        "space-infix-ops": "warn",
+        "import/newline-after-import": [
+            "error",
+            {
+                "count": 2
+            }
+        ],
+        "@typescript-eslint/member-delimiter-style": "warn",
+        "padding-line-between-statements": [
+            "warn",
+            {
+                "blankLine": "always",
+                "prev": "*",
+                "next": "function"
+            },
+            {
+                "blankLine": "always",
+                "prev": "*",
+                "next": "block"
+            }
+        ],
+        "lines-between-class-members": [
+            "error",
+            "always",
+            {
+                "exceptAfterSingleLine": true
+            }
+        ]
+    }
+}

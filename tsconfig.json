@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "target": "es5",
+        "module": "es6",
+        "jsx": "preserve",
+        "noImplicitAny": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true
+    }
+}
